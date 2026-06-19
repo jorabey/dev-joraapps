@@ -168,7 +168,7 @@ export function DocsPage() {
           <div>
             <h2 style={{ fontSize:20, fontWeight:800, marginBottom:8 }}>JoraApps API ga xush kelibsiz</h2>
             <p style={{ fontSize:14, color:'var(--t2)', lineHeight:1.8 }}>
-              JoraNet Bridge API orqali ilovangizni foydalanuvchi ma'lumotlariga ulashingiz mumkin.
+              JoraApps Bridge API orqali ilovangizni foydalanuvchi ma'lumotlariga ulashingiz mumkin.
               Foydalanuvchi ruxsat berganidan so'ng, siz uning profil, email va boshqa ma'lumotlariga xavfsiz kirishingiz mumkin.
             </p>
           </div>
