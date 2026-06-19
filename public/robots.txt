@@ -12,4 +12,4 @@ Disallow: /app
 
 
 # Sayt xaritasini ko'rsatamiz
-Sitemap: https://joranet.uz/sitemap.xml
+Sitemap: https://dev-joraapps.vercel.app/sitemap.xml
