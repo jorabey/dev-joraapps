@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /$
+Allow: /docs
+Allow: /login
+Allow: /register
+
+# Shaxsiy panellar va login ichidagi sahifalarni indekslashni taqiqlaymiz (SEO Reyting tushib ketmasligi uchun)
+Disallow: /dashboard
+Disallow: /settings
+Disallow: /analytics
+Disallow: /app
+
+
+# Sayt xaritasini ko'rsatamiz
+Sitemap: https://joranet.uz/sitemap.xml

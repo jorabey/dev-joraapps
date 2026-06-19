@@ -1,0 +1,91 @@
+{
+  "id": "/?utm_source=pwa",
+  "name": "JoraApps Developer Console",
+  "short_name": "JoraApps Dev",
+  "description": "Dasturchilar uchun eng qulay va kuchli boshqaruv paneli.",
+  "lang": "uz-UZ",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay",
+    "minimal-ui"
+  ],
+
+  "theme_color": "#6366f1",
+  "background_color": "#0f172a",
+
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Sozlamalar",
+      "short_name": "Sozlamalar",
+      "description": "Ilova sozlamalariga tezkor o'tish",
+      "url": "/settings",
+      "icons": [{ "src": "/icons/shortcut-settings.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Yangi ilova qo'shish",
+      "short_name": "Yangi ilova",
+      "description": "Yangi loyiha yoki ilova yaratish paneli",
+      "url": "/apps",
+      "icons": [{ "src": "/icons/shortcut-add.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-1.png",
+      "sizes": "1080x2400",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Asosiy boshqaruv paneli"
+    },
+    {
+      "src": "/screenshots/mobile-2.png",
+      "sizes": "1080x2400",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Ilova sozlamalari oynasi"
+    },
+    {
+      "src": "/screenshots/desktop-1.png",
+      "sizes": "2560x1600",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Katta ekrandagi ko'rinish"
+    }
+  ],
+
+  "categories": ["developer", "utilities", "productivity"],
+  "prefer_related_applications": false
+}
