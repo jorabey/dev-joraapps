@@ -323,7 +323,7 @@ export function SettingsPagebek() {
         <p className="sec-title" style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--t3, #64748b)', margin: '0 16px 8px 20px' }}>Resurslar</p>
         <div style={{ margin: '0 16px 20px 16px', background: 'var(--bg-2, #ffffff)', border: '1px solid var(--bd, #e2e8f0)', borderRadius: 12, overflow: 'hidden', boxShadow: '0 1px 2px rgba(0,0,0,0.01)' }}>
           {[
-            { icon: Code2,       label: 'API Hujjatlar',    sub: 'docs.joranet.uz',      color: '#10b981' },
+            { icon: Code2,       label: 'API Hujjatlar',    sub: 'dev-joraapps.vercel.app/docs',      color: '#10b981' },
             { icon: Shield,      label: 'Xavfsizlik siyosati', sub: 'Maxfiylik va shart-sharoitlar', color: '#64748b' },
             { icon: ExternalLink, label: 'JoraApps saytiga o\'tish', sub: 'joraapps.vercel.app', color: '#3b82f6' },
           ].map((item, i, arr) => (
@@ -375,7 +375,7 @@ export function SettingsPagebek() {
         </div>
 
         <p style={{ textAlign: 'center', fontSize: 12, color: 'var(--t4, #94a3b8)', padding: '8px 0 24px 0', margin: 0 }}>
-          © 2026 JoraApps · sjorabek42@gmail.com
+          © 2026 JoraApps Dev · sjorabek42@gmail.com
         </p>
       </div>
 
