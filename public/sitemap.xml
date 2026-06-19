@@ -5,28 +5,28 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>https://joranet.uz/</loc>
+    <loc>https://dev-joraapps.vercel.app/</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://joranet.uz/docs</loc>
+    <loc>https://dev-joraapps.vercel.app/docs</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://joranet.uz/login</loc>
+    <loc>https://dev-joraapps.vercel.app/login</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://joranet.uz/register</loc>
+    <loc>https://dev-joraapps.vercel.app/register</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
