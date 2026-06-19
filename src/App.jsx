@@ -42,7 +42,7 @@ export default function App() {
         <Route path="/apps"      element={<RequireAuth><AppsPage /></RequireAuth>} />
         <Route path="/analytics" element={<RequireAuth><AnalyticsPage /></RequireAuth>} />
         <Route path="/api-keys"  element={<RequireAuth><ApiKeysPage /></RequireAuth>} />
-        <Route path="/docs"      element={<DocsPage />} />
+        <Route path="/docs"      element={<AppLayout><DocsPage /></AppLayout>} />
         <Route path="/settings"  element={<RequireAuth><SettingsPagebek /></RequireAuth>} />
 
         {/* Redirects */}
