@@ -248,7 +248,7 @@ export function DocsPage() {
 
   return (
     <div>
-      <PageHd title={t('docs_title')} sub="JoraNet Bridge API bo'yicha to'liq qo'llanma" />
+      <PageHd title={t('docs_title')} sub="JoraApps Bridge API bo'yicha to'liq qo'llanma" />
       <div style={{ display:'grid', gridTemplateColumns:'200px 1fr', gap:24 }}>
         <nav style={{ display:'flex', flexDirection:'column', gap:2 }}>
           {sections.map(s => (
